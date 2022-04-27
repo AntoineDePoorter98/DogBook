@@ -1,0 +1,37 @@
+<title>BookDoog</title>
+<link rel="stylesheet" href="/static/stylesheets/register-style.css" />
+<!-- <script src="/static/scripts/createprofile.js"></script> -->
+<div id="big__container" class="">
+  <div id="logo"></div>
+  <div id="register">
+    <h1>Create a profile</h1>
+    <div class="form-container">
+      <p style="text-align: center">Who are you?</p>
+      <div class="center">
+        <a class="btn clicked small" href="/dashboard"> User </a>
+        <a class="btn small" href="/trainerCreate"> Trainer </a>
+      </div>
+      <form action="/profiles/new" method="post" enctype="multipart/form-data">
+        <label for="name">Your name</label>
+        <input id="name" type="text" name="name" />
+
+        <label for="bio">Description</label>
+        <textarea
+          id="bio"
+          type="text"
+          name="bio"
+          placeholder="Tell us more about yourself..."
+        ></textarea>
+        <label for="image" class="custom-file-upload"
+          >Upload profile picture here
+          <i class="fa-solid fa-file-arrow-down"></i
+        ></label>
+        <input id="image" type="file" name="image" />
+
+        <div class="btn-cont">
+          <button type="submit" class="btn orange">Create</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
