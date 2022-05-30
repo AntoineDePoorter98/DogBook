@@ -4,6 +4,7 @@
 
 ### App features
 
+- Create user account and custom your profile with picture and bio
 - Add activites
 - Add comments on activites
 - Rating system
