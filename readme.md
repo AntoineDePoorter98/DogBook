@@ -17,6 +17,6 @@ Node.js / Express.js
 MongoDB
 
 
-![Screenshot](DogBook.JPG "screenshot")
+![Screenshot](screenshot1.jfif "screenshot")
 
-![Screenshot](screenshot.JPG "screenshot")
+![Screenshot](screenshot2.jfif "screenshot")
