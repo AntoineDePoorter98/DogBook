@@ -16,7 +16,6 @@ EJS
 Node.js / Express.js 
 MongoDB
 
-
-![Screenshot](screenshot1.jfif "screenshot")
-
+![Screenshot](profile.jpg "screenshot")
+![Screenshot](register.jpg "screenshot")
 ![Screenshot](screenshot2.jfif "screenshot")
